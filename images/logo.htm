@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="pl">
+ <head>
+ <meta charset="utf-8">
+ <meta name="description" content="Crepe Me Zamów jedzenie z dowozem w Kraków. Plac Wolnica 4, Kraków, 31-060. Sprawdź menu, zamów online, opinie użytkowników i warunki dostawy. Zamów ulubione dania z dostawą do domu lub biura." />
+ <meta name="keywords" content="crepe me, crepe me w kraków, dostawa do domu, jedzenie z dowozem, plac wolnica 4, kraków, 31-060, restauracja, telefon, jedzenie, metody płatności, ulubiona restauracja, godziny dostawy, online, dostawa, opinie, ocena, menu, info, średnia ocena" />
+ <meta name="robots" content="index, follow"/>
+ <title>Crepe Me - Sprawdź Menu. Zamów Online - Kraków</title>
+ <meta http-equiv="Content-Language" content="pl">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta property="og:image" content="https://www.restauracje-jedzenie-online.pl/img/logo_tcom/crepe-me-krakow-krakow.png"/>
+ <meta property="og:title" content="Crepe Me - Sprawdź Menu. Zamów Online - Kraków"/>
+ <meta property="og:url" content="https://www.restauracje-jedzenie-online.pl/crepe-me-krakow"/>
+ <meta property="og:site_name" content="Restauracje-Jedzenie-Online.pl"/>
+ <meta property="og:description" content="Crepe Me Zamów jedzenie z dowozem w Kraków. Plac Wolnica 4, Kraków, 31-060. Sprawdź menu, zamów online, opinie użytkowników i warunki dostawy. Zamów ulubione dania z dostawą do domu lub biura." />
+ <link href="/css/bootstrap.min.css" rel="stylesheet">
+ <link href="/css/bootstrap-responsive.min.css" rel="stylesheet">
+ <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+ <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.3/dist/leaflet.css" />
+ <script src="https://unpkg.com/leaflet@1.3.3/dist/leaflet.js"></script>
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
+ <link rel="stylesheet" href="css/fontawesome-stars.css">
+<style type="text/css">
+body {padding-top:0px; padding-right:0px; padding-left:0px; padding-bottom: 40px; background-image:url('/img/hoffman.png'); font-family: sans-serif; font-size:13px;}
+h1, h2 {font-family: 'Lobster', cursive;}
+h1 {color:#3F0000; font-size:40px; line-height: 60px; text-shadow: 1px 1px #999999;}
+h2 {font-size:20px; font-weight:normal; padding:0px; margin:0px;}
+h3 {font-size:14px; font-weight:bold; line-height: 18px; padding:0px; font-family: sans-serif; margin:0px;}
+.tlink {font-family: 'Lobster', cursive; font-size:20px;}
+.sm {font-size:14px;}
+.double_column_list li {float: left; width: 50%;}
+.rest-logo {max-width:100%;margin-top:3px;border-radius: 5%;}
+.jumbotron {min-width: 300px; padding: 19px 29px 29px; margin: 0 auto 20px; background-color: #fff; border: 1px solid #cccccc; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05); -moz-box-shadow: 0 1px 2px rgba(0,0,0,.05); box-shadow: 0 1px 2px rgba(0,0,0,.05);}
+.logo {position: absolute; top: 0; right: -50px;}
+.mast-logo {position: absolute; top: 40px; left: 0px;}
+.mast-title {font-family: 'Lobster', cursive; color:#181715; font-size:45px;}
+.social {position: absolute; top: 100px; left: 0px;}
+ul.like-buttons{float: left; list-style: none; margin: 5px 0 20px 0; padding: 0; width: 100%;}
+ul.like-buttons li{display: block; float: left; margin-right: 10px;}
+li.twitter-like{margin-top: 0px;}
+.rating {cursor: pointer; margin-top: 3px; clear: both; display: block;}
+.star{float: left; width: 17px; height: 15px; overflow: hidden; text-indent: -999em; cursor: pointer;}
+.star, .star a {background: url('/img/rating/star.gif') no-repeat 0 0px;}
+.star a {display: block;}
+.rev-img{max-width: 30px;}
+div.rating div.hover a, div.rating div a:hover {background-position: 0 -32px;}
+.order_btn{font-weight:bold;margin-top:5px;}
+@media only screen and (max-width: 500px) {
+ .logo {width: 100%;right:-20px; opacity: 0.7;}
+ .order_btn{font-weight:bold;font-size:12px;padding:1px;margin-top:5px;}
+ .mast-title {font-size:30px;}
+ .jumbotron {padding: 19px 9px 29px;}
+ h1 {font-size:30px;line-height: 30px;}
+}
+</style>
+<!--[if lt IE 9]> <script src="/js/html5shiv.js"></script> <![endif]-->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({
+ google_ad_client: "ca-pub-3884369372091232",
+ enable_page_level_ads: true
+});
+</script>
+<script type="text/javascript">
+window.cookieconsent_options = {
+"message": "Na naszej stronie stosujemy pliki cookies. Korzystanie z naszej stronie bez zmiany ustawień przeglądarki oznacza, że pliki cookies będą zamieszczana na Twoim urządzeniu." ,
+"dismiss": "Rozumiem!",
+"learnMore": "Więcej informacji",
+"link": "/polityka-prywatnosci.htm",
+"theme": "dark-bottom"
+};
+</script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/1.0.9/cookieconsent.min.js"></script>
+  </head>
+  <body>
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/pl_PL/sdk.js#xfbml=1&version=v2.4&appId=148753205157855";
+  fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+   <div class="container">
+    <div class="masthead" style="height:130px;">
+     <div style="position: relative;" class="container">
+      <img src="/img/top-back.png" class="logo">
+      <div class="mast-logo">
+	  <a href="/" class="mast-title">Zamawiaj jedzenie online</a>
+            <br /><a href="/krakow">Kraków</a>
+	  	  </div>
+       <div class="social">
+       <ul class="like-buttons">
+         <li class="fb-like">
+          <div class="fb-like" data-href="https://www.restauracje-jedzenie-online.pl/crepe-me-krakow" data-layout="button_count" data-action="like" data-show-faces="true" data-share="false"></div>
+         </li>
+         <li class="twitter-like">
+          <a href="https://twitter.com/share" class="twitter-share-button">Tweetnij</a>
+          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.async=true;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+         </li>
+        </ul>
+      </div>
+     </div>
+    </div>
+ </div>
+ <div class="container">
+ <div class="jumbotron">
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3884369372091232" data-ad-slot="6243872782" data-ad-format="auto" data-full-width-responsive="true"></ins>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+	<div itemscope itemtype="http://schema.org/Restaurant">
+<h1 itemprop="name">Crepe Me</h1>
+<div class="row-fluid">
+	<div class="span6">
+		<table width="95%">
+			<tr>
+				<td>
+					<p><div itemprop="address" itemscope itemtype="https://schema.org/PostalAddress"><span itemprop="streetAddress">Plac Wolnica 4</span><br /><span itemprop="addressLocality">Kraków</span>, <span itemprop="postalCode">31-060</span></div></p>
+					<p>Telefon: -</p>
+				</td>
+				<td align="right">
+										<a href="https://www.awin1.com/awclick.php?gid=389712&mid=12109&awinaffid=85858&linkid=2643420&clickref=restauracje-jedzenie-online-pl&p=https%3A%2F%2Fwww.pyszne.pl%2F" rel="external nofollow" target="_blank"><button type="button" class="btn btn-success btn-md order_btn"><i class="fa fa-hand-o-right"></i> Zamów online - Pyszne.pl</button></a>														</td>
+			</tr>
+		</table>
+						<br>
+		<div id="map" class="map map-home" style="height: 212px;"></div>
+<script>
+	var osmUrl = 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+		osmAttrib = '&copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="external nofollow">OpenStreetMap</a> contributors',
+		osm = L.tileLayer(osmUrl, {maxZoom: 18, attribution: osmAttrib});
+	var map = L.map('map').setView([50.049274700000, 19.943889900000], 17).addLayer(osm);
+	L.marker([50.049274700000, 19.943889900000])
+		.addTo(map)
+		.bindPopup('Crepe Me<br /><a href="https://www.awin1.com/awclick.php?gid=389712&mid=12109&awinaffid=85858&linkid=2643420&clickref=restauracje-jedzenie-online-pl&p=https%3A%2F%2Fwww.pyszne.pl%2F" rel="external nofollow" target="_blank"><i class="fa fa-hand-o-right"></i> Zamów online - Pyszne.pl</a>');
+	map.zoomControl.remove();
+</script>
+				<br><br>
+		<h2>Opinie Crepe Me</h2>
+		<div class="contact-form">
+			<p>Twoja ogólna ocena Crepe Me w Kraków</p>
+			<form id="new-review" name="review-form">
+				<div class="form-group">
+					Jedzenie : <select id="review_food" name="review_food" required="required"><option value="1">1</option><option value="2">2</option><option value="3" selected>3</option><option value="4">4</option><option value="5">5</option></select>
+					Obsługa : <select id="review_service" name="review_service" required="required"><option value="1">1</option><option value="2">2</option><option value="3" selected>3</option><option value="4">4</option><option value="5">5</option></select>
+				</div>
+				<div class="form-group" style="display: inline;">
+					<input type="text" name="review_name" class="form-control" required="required" required="required" placeholder="Twoje imię" value="">
+				</div>
+				<div class="form-group" style="display: inline;">
+					<input type="email" name="review_email" class="form-control" required="required" placeholder="Adres e-mail" value="">
+				</div>
+				<div class="form-group">
+					<textarea style="width:100%" name="review_txt" id="message" required="required" class="form-control" rows="4" placeholder="Opisz swoje wrażenia: posiłki, atmosfera, obsługa?"></textarea>
+				</div>
+				<div class="form-group">
+										<input type="submit" name="submit" class="btn btn-submit" value="Prześlij recenzję">
+					<input type="hidden" name="restaurant_id" value="1525513">
+					<p style="font-size:10px;line-height: 12px;">Oświadczam, że niniejsza recenzja jest oparta na moich własnych doświadczeniach i przedstawia moje rzeczywiste zdanie na temat Crepe Me. Potwierdzam, że nie mam powiązań osobistych ani służbowych z tym obiektem oraz że nie czerpię korzyści finansowych ani żadnych innych w związku z napisaniem niniejszej recenzji. Przyjmuję do wiadomości fakt, że obowiązuje zasada absolutnego braku tolerancji dla nieprawdziwych recenzji.</p>
+				</div>
+			</form>
+		</div>
+		<h2>Menu Crepe Me</h2>
+								<a href="https://www.awin1.com/awclick.php?gid=389712&mid=12109&awinaffid=85858&linkid=2643420&clickref=restauracje-jedzenie-online-pl&p=https%3A%2F%2Fwww.pyszne.pl%2F" rel="external nofollow" target="_blank"><button type="button" class="btn btn-success btn-md order_btn"><i class="fa fa-hand-o-right"></i> Zamów online - Pyszne.pl</button></a><br /><br />
+				<div class="double_column_list" itemscope itemtype="http://schema.org/MenuSection"><h3 itemprop="name">Najpopularniejsze dania </h3><ul itemscope itemtype="http://schema.org/MenuItem"><li itemprop="name">Chicken Tortilla﻿</li><li>Naleśnik Daily﻿</li><li>Chicken Club﻿</li></ul></div><div style="clear: both;"></div><div class="double_column_list" itemscope itemtype="http://schema.org/MenuSection"><h3 itemprop="name">Słone naleśniki </h3><ul itemscope itemtype="http://schema.org/MenuItem"><li itemprop="name">Naleśnik Daily﻿</li><li>Naleśnik Chef﻿</li><li>Naleśnik No Name﻿</li><li>Naleśnik Tokyo﻿</li><li>Naleśnik Strange﻿</li><li>Naleśnik Greek﻿</li><li>Naleśnik Vege﻿</li><li>Naleśnik Mummy﻿</li><li>Naleśnik Hangover﻿</li><li>Naleśnik Crepe Me﻿</li><li>Naleśnik Paradise﻿</li></ul></div><div style="clear: both;"></div><div class="double_column_list" itemscope itemtype="http://schema.org/MenuSection"><h3 itemprop="name">Słodkie naleśniki </h3><ul itemscope itemtype="http://schema.org/MenuItem"><li itemprop="name">Naleśnik Bisco﻿</li><li>Naleśnik Crepe Suzzete﻿</li><li>Naleśnik Black & White﻿</li><li>Naleśnik Oreo﻿</li><li>Naleśnik Lila﻿</li><li>Naleśnik Mars﻿</li><li>Naleśnik Orange﻿</li><li>Naleśnik White Heaven﻿</li><li>Naleśnik Banana Dream﻿</li><li>Naleśnik Strawberry Dream﻿</li><li>Naleśnik Crepe Me﻿</li></ul></div><div style="clear: both;"></div><div class="double_column_list" itemscope itemtype="http://schema.org/MenuSection"><h3 itemprop="name">Kanapki </h3><ul itemscope itemtype="http://schema.org/MenuItem"><li itemprop="name">Kanapka Classic z szynką﻿</li><li>Kanapka Classic z indykiem﻿</li><li>Kanapka Premier﻿</li><li>Kanapka Chicky﻿</li><li>Kanapka Doggie Style﻿</li><li>Kanapka Farmers﻿</li><li>Kanapka Los Angeles﻿</li></ul></div><div style="clear: both;"></div><div class="double_column_list" itemscope itemtype="http://schema.org/MenuSection"><h3 itemprop="name">Club Sandwich </h3><ul itemscope itemtype="http://schema.org/MenuItem"><li itemprop="name">Chicken Club﻿</li><li>Ham & Bacon Club﻿</li><li>Cheese Club﻿</li></ul></div><div style="clear: both;"></div><div class="double_column_list" itemscope itemtype="http://schema.org/MenuSection"><h3 itemprop="name">Tortillas 33 cm </h3><ul itemscope itemtype="http://schema.org/MenuItem"><li itemprop="name">Chicken Tortilla﻿</li><li>Vulcano Tortilla﻿</li></ul></div><div style="clear: both;"></div><div class="double_column_list" itemscope itemtype="http://schema.org/MenuSection"><h3 itemprop="name">Sałatki </h3><ul itemscope itemtype="http://schema.org/MenuItem"><li itemprop="name">Cesar&#x27;s Salad﻿</li><li>Sałatka Chef﻿</li><li>Greek Original Salad﻿</li></ul></div><div style="clear: both;"></div><div class="double_column_list" itemscope itemtype="http://schema.org/MenuSection"><h3 itemprop="name">Napoje gorące </h3><ul itemscope itemtype="http://schema.org/MenuItem"><li itemprop="name">Espresso 30ml﻿</li><li>Double Espresso 60ml﻿</li><li>Cappuccino 90ml﻿</li><li>Double Cappuccino 200ml﻿</li><li>Latte 110ml﻿</li><li>Double Latte 250ml﻿</li><li>Nescafe Frappe 250ml﻿</li><li>White Frappe 250ml﻿</li><li>Freddo espresso 250ml﻿</li><li>Freddo Cappuccino 250ml﻿</li><li>Chocolate 300ml﻿</li><li>Herbata 250ml﻿</li></ul></div><div style="clear: both;"></div>			</div>
+	<div class="span3">
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+style="display:block"
+data-ad-client="ca-pub-3884369372091232"
+data-ad-slot="6243872782"
+data-ad-format="auto"
+data-full-width-responsive="true"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+	</div>
+	<div class="span3">
+						<a href="https://www.awin1.com/awclick.php?gid=389712&mid=12109&awinaffid=85858&linkid=2643420&clickref=restauracje-jedzenie-online-pl&p=https%3A%2F%2Fwww.pyszne.pl%2F" rel="external nofollow" target="_blank"><img itemprop="image" class="rest-logo" src="img/logo_tcom/crepe-me-krakow-krakow.png" alt="Crepe Me en Kraków" /></a>
+								<p itemprop="description">Zamów jedzenie online na dowóz z Crepe Me w Kraków 31-060. Sprawdź ofertę  restauracji w Twoim mieście! Zamów jedzenie online i zarezerwuj stolik, na które masz ochotę.</p>
+		<h2>Inne restauracje w pobliżu</h2>
+		<table width="100%">
+
+	<tr>
+
+		<td><a href="uber-eats-krakow" class="tlink sm">Uber Eats</a><br />Rynek Główny 1/3</td>
+
+	</tr>
+
+</table><table width="100%">
+
+	<tr>
+
+		<td><a href="krakowskie-wypieki-krakow" class="tlink sm">Krakowskie Wypieki</a><br />ul. Długa przy skrzyżowaniu z ul. Filipa</td>
+
+	</tr>
+
+</table><table width="100%">
+
+	<tr>
+
+		<td><a href="amozzy-krakow" class="tlink sm">A'Mozzy</a><br />Osiedle Dywizjonu 303 62c</td>
+
+	</tr>
+
+</table><table width="100%">
+
+	<tr>
+
+		<td><a href="pizza-hut-express-krakow" class="tlink sm">Pizza Hut, Kapelanka</a><br />Kapelanka 56</td>
+
+	</tr>
+
+</table><table width="100%">
+
+	<tr>
+
+		<td><a href="kfc-wadowicka-krakow" class="tlink sm">KFC, Wadowicka</a><br />Wadowicka 2</td>
+
+	</tr>
+
+</table>		<h2>Jedzenie w domu w Kraków</h2>
+		<p>Użytkownicy zainteresowani w:</p>
+		<p><a href="/chleb-i-wino-torun">https://www.restauracje-jedzenie-online.pl/chleb-i-wino-torun</a> <small>(57)</small> / <a href="/dziedziniec-wloclawek">https://www.restauracje-jedzenie-online.pl/dziedziniec-wloclawek</a> <small>(56)</small> / <a href="/trattoria-zielone-13-krakow">https://www.restauracje-jedzenie-online.pl/trattoria-zielone-13-krakow</a> <small>(51)</small> / <a href="/pelna-micha-jaworzno">https://www.restauracje-jedzenie-online.pl/pelna-micha-jaworzno</a> <small>(50)</small> / <a href="/bar-orientalny-lomza">https://www.restauracje-jedzenie-online.pl/bar-orientalny-lomza</a> <small>(48)</small> / <a href="/restauracja-u-dzong-wroclaw">https://www.restauracje-jedzenie-online.pl/restauracja-u-dzong-wroclaw</a> <small>(47)</small> / <a href="/ha-noi-miedzyrzecz">https://www.restauracje-jedzenie-online.pl/ha-noi-miedzyrzecz</a> <small>(46)</small> / <a href="/caffe-figaro">https://www.restauracje-jedzenie-online.pl/caffe-figaro</a> <small>(45)</small> / <a href="/bydgoszcz">jedzenie z dowozem bydgoszcz</a> <small>(42)</small> / <a href="/ha-noi-rawicz">https://www.restauracje-jedzenie-online.pl/ha-noi-rawicz</a> <small>(41)</small></p>		<p>...i nowe terminy wyszukiwania w restauracji Kraków:</p>
+		<p><a href="/pizzeria-diavolo">chorz?w pizza</a> / <a href="/li-luciano-ul-szwedzka-loku-szczecin">https://www.restauracje-jedzenie-online.pl/li-luciano-ul-szwedzka-loku-szczecin</a> / <a href="/kur-czak-z-rozna-biblioteczna">tychy kebab</a> / <a href="/rolls-burger">https://www.restauracje-jedzenie-online.pl/rolls-burger</a> / <a href="/pizzeria-pod-drewnianym-bocianem">chorz?w pizza</a> / <a href="/a-moze-pizza">chorz?w pizza</a> / <a href="/viet-tien-warszawa">viet tien fort wola menu</a> / <a href="/kebab-heaven-tychy-tychy">tychy kebab</a> / <a href="/kebab-izmir-tychy">tychy kebab</a> / <a href="/metin-kebab-ul-budowlanych-tychy">tychy kebab</a></p>	</div>
+</div>
+</div>	<br />
+	<table border="0">
+		<tr>
+			<td>
+			<span id=final><img src="img/rating/star2.gif" align=absmiddle alt='gwiazdy'><img src="img/rating/star2.gif" align=absmiddle alt='gwiazdy'><img src="img/rating/star2.gif" align=absmiddle alt='gwiazdy'><img src="img/rating/star2.gif" align=absmiddle alt='gwiazdy'><img src="img/rating/star2.gif" align=absmiddle alt='gwiazdy'></span><br><span class="hreview-aggregate"><span class="item"><span class="fn">Crepe Me - Sprawdź Menu. Zamów Online - Kraków</span></span> <span class="rating"><span class="average">5</span> z <span class="best">5</span> (<span class="votes">33</span> oceny) <span class="summary"></span></span></span>			</td>
+		</tr>
+		<tr>
+			<td>
+				Ocena - Crepe Me<br>
+				<div id="rate2" class="rating">
+				<div id="star1" class="star"><a id="1">1</a></div>
+				<div id="star2" class="star"><a id="2">2</a></div>
+				<div id="star3" class="star"><a id="3">3</a></div>
+				<div id="star4" class="star"><a id="4">4</a></div>
+				<div id="star5" class="star"><a id="5">5</a></div>
+				<input type=hidden id="rating"><span id="rateit"></span>
+				</div>
+			</td>
+		</tr>
+	</table>
+  </div>
+  <hr>
+  <footer>
+   <p><a href="o-nas.htm">O nas</a> / <a href="kontakt.htm">Kontakt</a> / <a href="polityka-prywatnosci.htm">Polityka prywatnosci</a></p>
+   <p><strong>Tags:</strong> https://www.restauracje-jedzenie-online.pl/crepe-me-krakow</p>   <p>2018-2023 / Polska / Restauracje-Jedzenie-Online.pl (v.1.1)</p>
+  </footer>
+  </div>
+<script type="text/javascript">var sc_project=11907432;var sc_invisible=1;var sc_security="d38108c8";</script>
+<script type="text/javascript" src="https://www.statcounter.com/counter/counter.js" async></script>
+<noscript><div class="statcounter"><img class="statcounter" src="//c.statcounter.com/11907432/0/d38108c8/1/" alt="stat"></a></div></noscript>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script src="/js/barrating.min.js"></script>
+<script>
+$(document).ready(function(){
+$('.star a').hover(function(){
+ var uid = this.id;
+ switch(uid){
+ case '1':
+  $('#rateit').css({visibility: "visible", color: "red","font-size": "12", "font-family":"Arial"});
+  break;
+ case '2':
+  $('#rateit').css({visibility: "visible", color: "#b8860b","font-size": "12", "font-family":"Arial"});
+  break;
+ case '3':
+  $('#rateit').css({visibility: "visible", color: "purple","font-size": "12", "font-family":"Arial"});
+  break;
+ case '4':
+  $('#rateit').css({visibility: "visible", color: "blue","font-size": "12", "font-family":"Arial"});
+ case '5':
+  $('#rateit').css({visibility: "visible", color: "green","font-size": "12", "font-family":"Arial"});
+ }
+});
+$('.star a').mouseout(function(){
+ var uid = this.id;
+ $('#rateit').css({visibility: "hidden"});
+ for(var x=1;x<=uid;x++){
+  $('#star'+x).css('background-image', 'url("img/rating/star.gif")');
+ }
+});
+$('.star a').click(function(){
+ var val = $(this).text();
+ $.get("jprog/addrating.php","rating="+val,function(result){
+  if(result != "not added"){
+   var sp = result.split("#");
+   var ff = "[ "+sp[0]+" ]";
+   var dispstars = sp[1];
+   $("#final").html(dispstars);
+   $("#strimg").html(ff);
+   $('#res').css({opacity: 0.0, visibility: "visible"});
+  }
+  });
+});
+$(function() {
+  $('#review_service').barrating({theme: 'fontawesome-stars',showSelectedRating: false});
+  $('#review_food').barrating({theme: 'fontawesome-stars',showSelectedRating: false});
+});
+$(function() {
+ var form = $('#new-review');
+ $('#new-review').submit(function(e) {
+  e.preventDefault();
+  var $element = $(this);
+  var form_status = $('<div class="form_status"></div>');
+  var data = $element.serialize();
+  $.ajax({
+   url: '_review.php',
+   beforeSend: function(){
+    form.before( form_status.html('<p><i class="fa fa-spinner fa-spin"></i> Wysyłanie...</p>').fadeIn() )
+   },
+   type: "POST",
+   cache: false,
+   data: data,
+   success: function(data) {
+    form_status.html('<p class="text-success">Dziękuję Otrzymaliśmy Twoją opinię. Obecnie oczekuje na sprawdzenie redakcyjne i pojawi się na tej stronie wkrótce.</p>');
+    form.fadeOut();
+   }
+  });
+ });
+});
+});
+ </script>
+</body>
+</html>
